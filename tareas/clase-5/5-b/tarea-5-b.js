@@ -5,7 +5,6 @@
 // mostrar toda la información junta en un campo de texto
 // Y va a cambiar el <h1> para decir "Bienvenido, nombreDeUsuario"!
 
-const BOTON_MOSTRAR_INFO = document.querySelector("#mostrar-info").onclick;
 document.querySelector("#mostrar-info").onclick = function(){
     const $nombreUsuario = document.querySelector("#nombre-usuario").value;
     const $segundoNombreUsuario = document.querySelector("#segundo-nombre-usuario").value;
